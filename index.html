@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Biodata Pelajar - Tugas Sekolah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(115deg, #e0f2fe 0%, #d4fc79 75%, #a1e6f8 100%);
+      min-height: 100vh;
+    }
+    .avatar {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #38bdf8;
+      box-shadow: 0 8px 28px rgba(30,110,230,.12);
+    }
+    .card img { object-fit: cover; height: 150px;}
+    .badge-custom { background: #38bdf8; color: #fff;}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo hsi.jpg" alt="Logo" style="height:38px;margin-right:8px;">
+      Santri HSI
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+      <ul class="navbar-nav gap-lg-3">
+        <li class="nav-item"><a href="#home" class="nav-link active">Beranda</a></li>
+        <li class="nav-item"><a href="#profil" class="nav-link">Profil</a></li>
+        <li class="nav-item"><a href="#galeri" class="nav-link">Galeri</a></li>
+        <li class="nav-item"><a href="#jadwal" class="nav-link">Jadwal</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO/BERANDA -->
+<section id="home" class="container mb-5">
+  <div class="text-center py-4">
+    <img src="images/photo_2025-11-04_19-41-08.jpg" alt="Avatar" class="avatar mb-2">
+    <h1 class="fw-bold mb-1 text-primary">Muhammad Faruuq</h1>
+    <div class="text-info mb-2">Santri HSI</div>
+    <span class="badge badge-custom mb-3">Tugas Website Biodata Bootstrap 5</span>
+    <p class="lead mb-2">Belajar dan berprestasi di bidang teknologi dan pendidikan.</p>
+  </div>
+</section>
+
+<!-- PROFIL BIODATA -->
+<section id="profil" class="container mb-5">
+  <h2 class="fw-bold mb-4 text-primary">Biodata Pelajar</h2>
+  <div class="row justify-content-center">
+    <div class="col-lg-7">
+      <div class="card shadow mb-3">
+        <div class="card-body">
+          <table class="table table-borderless mb-0">
+            <tbody>
+              <tr><th>Kelas</th><td>X B</td></tr>
+              <tr><th>Email</th><td>faruuqjunee_@email.com</td></tr>
+              <tr><th>No HP</th><td>0812-9876-****</td></tr>
+              <tr><th>Hobi</th><td>Coding, Futsal</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="container mb-5">
+  <h2 class="fw-bold mb-4 text-primary">Galeri Kegiatan</h2>
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow card-gallery">
+        <img src="images/photo_2025-10-20_08-04-52.jpg" class="card-img-top" alt="Foto 1">
+        <div class="card-body">
+          <h5 class="card-title">foto 1 angkatan</h5>
+          <p class="card-text">Foto bersama 1 angkatan .</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow card-gallery">
+        <img src="images/photo_2025-10-03_19-43-27.jpg" class="card-img-top" alt="Foto 2">
+        <div class="card-body">
+          <h5 class="card-title">Ekstrakurikuler</h5>
+          <p class="card-text">Latihan futsal setiap ahad.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow card-gallery">
+        <img src="images/photo_2025-10-07_20-23-33.jpg" class="card-img-top" alt="Foto 3">
+        <div class="card-body">
+          <h5 class="card-title">Morning spirit</h5>
+          <p class="card-text">Morning spirit SMA IT HSI BS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JADWAL -->
+<section id="jadwal" class="container mb-5">
+  <h2 class="fw-bold mb-4 text-primary">Jadwal Kegiatan Mingguan</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped align-middle">
+      <thead class="table-primary">
+        <tr>
+          <th>Hari</th><th>Waktu</th><th>Kegiatan</th><th>Pengajar</th><th>Lokasi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Senin</td>
+          <td>08:00-10:00</td>
+          <td>Bahasa Arab</td>
+          <td rowspan="2">Ustadz Febri</td>
+          <td>Masjid</td>
+        </tr>
+        <tr>
+          <td>13:00-15:00</td>
+          <td>Bahasa Arab</td>
+          <td>Aula</td>
+        </tr>
+        <tr>
+          <td>Kamis</td>
+          <td colspan="2">15:00-17:00 | Kajian umum</td>
+          <td>Ustadz dari luar</td>
+          <td>Masjid</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- FEEDBACK FORM -->
+<section id="feedback" class="container mb-5">
+  <h2 class="fw-bold mb-4 text-primary">Kirim Feedback & Saran</h2>
+  <form>
+    <div class="row mb-3">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="nama" placeholder="Nama" required>
+          <label for="nama">Nama</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" placeholder="Email" required>
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <div class="form-floating">
+          <select class="form-select" id="kategori" required>
+            <option value="">Pilih...</option>
+            <option value="kritik">Kritik</option>
+            <option value="saran">Saran</option>
+          </select>
+          <label for="kategori">Kategori</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating">
+          <input type="tel" class="form-control" id="hp" placeholder="Nomor HP">
+          <label for="hp">Nomor HP</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-floating mb-3">
+      <textarea class="form-control" placeholder="Tuliskan pesan/saran..." id="pesan" style="height: 100px" required></textarea>
+      <label for="pesan">Pesan</label>
+    </div>
+    <button type="submit" class="btn btn-primary px-4">Kirim</button>
+  </form>
+</section>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
